@@ -20,8 +20,8 @@ const assertArrayEqual = function(actual, expected) {
   }
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false);
-assertEqual(eqArrays([], []), true);
-assertEqual(eqArrays([1], [1]), true);
-assertEqual(eqArrays([1], []), false);
+assertArrayEqual([1, 2, 3], [1, 2, 3]);
+assertArrayEqual([1, 2, 3], [3, 2, 1]);
+assertArrayEqual([], []);
+assertArrayEqual([1], [1]);
+assertArrayEqual([1], []);
