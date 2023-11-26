@@ -33,8 +33,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-assertEqual(eqArrays(letterPositions("hello").e, [1]), true);
-assertEqual(eqArrays(letterPositions("Good Day").a, [6]), true);
-assertEqual(eqArrays(letterPositions("Nicholas").h, [0]), true);
-assertEqual(eqArrays(letterPositions("Vancouver").o, [4]), true);
-assertEqual(eqArrays(letterPositions("Canada").n, [1]), true);
+assertEqual(letterPositions("hello").e, [1]);
+assertEqual(letterPositions("Good Day").a, [6]);
+assertEqual(letterPositions("Nicholas").h, [0]);
+assertEqual(letterPositions("Vancouver").o, [4]);
+assertEqual(letterPositions("Canada").n, [1]);
