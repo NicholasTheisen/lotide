@@ -18,8 +18,8 @@ const findKeyByValue = (object, value) => {
 const bestTVShowsByGenre = { 
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-  fantasy: "Game of Thrones"
+  drama:  "The Wire",
+  fantasy: "Game of Thrones",
   soap_opera: "Days of our Lives"
 };
 
