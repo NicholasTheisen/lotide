@@ -19,4 +19,6 @@ const countLetters = function(sentence) {
 };
 
 const result = countLetters("LHL");
-console.log(result);
+assertEqual(result['L'], 2);
+assertEqual(result['H'], 1);
+
