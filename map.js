@@ -28,8 +28,7 @@ const map = (array, callback) => {
 };
 
 const words = ["ground", "control", "to", "major", "tom"];
-
+const expected = ['g', 'c', 't', 'm', 't'];
 const results1 = map(words, word => word[0]);
-console.log(results1);
-
+assertArrayEqual(results1, expected);
 
