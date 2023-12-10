@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@nicholastheisen/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide Nov 13 Cohort",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/NicholasTheisen/lotide.git"
   },
-  "author": "",
+  "author": "Nicholas Theisen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NicholasTheisen/lotide/issues"
