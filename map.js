@@ -27,8 +27,4 @@ const map = (array, callback) => {
   return newArray;
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
-const expected = ['g', 'c', 't', 'm', 't'];
-const results1 = map(words, word => word[0]);
-assertArrayEqual(results1, expected);
-
+module.exports = map;

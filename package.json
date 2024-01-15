@@ -2,7 +2,7 @@
   "name": "@nicholastheisen/lotide",
   "version": "1.0.0",
   "description": "Lotide Nov 13 Cohort",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
